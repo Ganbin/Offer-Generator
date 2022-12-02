@@ -1,0 +1,9 @@
+{
+  "walletFingerprint": "1234567789",
+  "nbTogenerate": 20,
+  "offerWalletID": 7,
+  "requestWalletID": 1,
+  "requestAmount": 4,
+  "price": 0.00001,
+  "increment": 2
+}
