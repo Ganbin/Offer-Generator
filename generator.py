@@ -7,7 +7,7 @@ outputPath = "./offers/"
 with open("data.json") as file:
     data = json.load(file)
     offerAmount = data["requestAmount"] / data["price"] / data["nbTogenerate"]
-    requestAmount = data["requestAmount"] / data["nbTogenerate"]
+    requestAmount = round((data["requestAmount"] / data["nbTogenerate"]), 4)
     increment = 1 + ((data["increment"] / data["nbTogenerate"]) / 100)
     fingerprint = data["walletFingerprint"]
 
